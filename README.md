@@ -22,3 +22,62 @@ and state-driven UI rendering.
 - Vite / CRA (adjust based on your setup)
 
 ## 📂 Project Structure
+src/
+├─ components/
+│ ├─ Navbar.jsx
+│ ├─ Button.jsx
+│ └─ Input.jsx
+├─ pages/
+│ ├─ Login.jsx
+│ ├─ Register.jsx
+│ └─ Calculator.jsx
+├─ utils/
+│ └─ calculate.js
+├─ App.jsx
+└─ main.jsx
+
+---
+
+## 🧩 Key Concepts Implemented
+
+- Lifting state up
+- Parent–child communication via props
+- Conditional rendering
+- Separation of concerns
+- Manual routing without external libraries
+- Basic authentication simulation using LocalStorage
+
+---
+
+## 🔒 Notes
+
+This project uses LocalStorage to simulate authentication.
+It is intended for learning and portfolio purposes only,
+not for production use.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone this repository
+        ```bash
+    git clone https://github.com/Basybasyaa/react-calculator-auth.git
+
+2. Install dependencies
+    npm install
+
+3. Run the development server
+    npm run dev
+
+📈 Possible Improvements
+
+. Implement React Router for URL-based routing
+. Integrate backend authentication (API)
+. Add form validation
+. Add calculation history
+. Improve UI/UX and responsiveness
+
+
+👤 Author
+Basy Basya
+Junior Frontend Developer (React)
