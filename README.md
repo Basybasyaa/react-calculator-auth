@@ -80,7 +80,7 @@ not for production use.
 ## 📸 Screenshots
 
 ### Login Page
-![Login Page](src/assets/Calculator.png)
+![Login Page](src/assets/Login.png)
 
 ### Register Page
 ![Register Page](src/assets/Register.png)
