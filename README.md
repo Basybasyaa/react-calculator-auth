@@ -80,13 +80,13 @@ not for production use.
 ## 📸 Screenshots
 
 ### Login Page
-![Login Page](./asset/Login.png)
+![Login Page](src/assets/Calculator.png)
 
 ### Register Page
-![Register Page](./asset/Register.png)
+![Register Page](src/assets/Register.png)
 
 ### Calculator
-![Calculator](./asset/Calculator.png)
+![Calculator](src/assets/Calculator.png)
 
 
 👤 Author
