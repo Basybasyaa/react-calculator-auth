@@ -77,6 +77,17 @@ not for production use.
 . Add calculation history
 . Improve UI/UX and responsiveness
 
+## 📸 Screenshots
+
+### Login Page
+![Login Page](./asset/Login.png)
+
+### Register Page
+![Register Page](./asset/Register.png)
+
+### Calculator
+![Calculator](./asset/Calculator.png)
+
 
 👤 Author
 Basy Basya
