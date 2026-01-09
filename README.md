@@ -1,16 +1,94 @@
-# React + Vite
+# React Calculator App with Authentication
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React calculator application that implements a simple authentication flow
+(login & register) and manual routing using React state.
 
-Currently, two official plugins are available:
+The main goal of this project is to demonstrate React fundamentals, component-based architecture,
+and state-driven UI rendering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Calculator with separated business logic
+- Login & Register authentication flow
+- Authentication state management
+- Manual routing using React state
+- LocalStorage persistence
+- Conditional rendering based on user state
+- Component-based architecture
 
-## React Compiler
+## 🛠 Tech Stack
+- React (useState, props)
+- JavaScript (ES6)
+- LocalStorage
+- Vite / CRA (adjust based on your setup)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Project Structure
+src/
+├─ components/
+│ ├─ Navbar.jsx
+│ ├─ Button.jsx
+│ └─ Input.jsx
+├─ pages/
+│ ├─ Login.jsx
+│ ├─ Register.jsx
+│ └─ Calculator.jsx
+├─ utils/
+│ └─ calculate.js
+├─ App.jsx
+└─ main.jsx
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Key Concepts Implemented
+
+- Lifting state up
+- Parent–child communication via props
+- Conditional rendering
+- Separation of concerns
+- Manual routing without external libraries
+- Basic authentication simulation using LocalStorage
+
+---
+
+## 🔒 Notes
+
+This project uses LocalStorage to simulate authentication.
+It is intended for learning and portfolio purposes only,
+not for production use.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone this repository
+        ```bash
+    git clone https://github.com/Basybasyaa/react-calculator-auth.git
+
+2. Install dependencies
+    npm install
+
+3. Run the development server
+    npm run dev
+
+📈 Possible Improvements
+
+. Implement React Router for URL-based routing
+. Integrate backend authentication (API)
+. Add form validation
+. Add calculation history
+. Improve UI/UX and responsiveness
+
+## 📸 Screenshots
+
+### Login Page
+![Login Page](src/assets/Login.png)
+
+### Register Page
+![Register Page](src/assets/Register.png)
+
+### Calculator
+![Calculator](src/assets/Calculator.png)
+
+
+👤 Author
+Basy Basya
+Junior Frontend Developer (React)
