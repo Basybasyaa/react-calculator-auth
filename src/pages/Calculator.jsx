@@ -4,6 +4,16 @@ import { add, subtract, multiply } from "../utils/calculate";
 function Calculator() {
   const [a, setA] = useState("");
   const [b, setB] = useState("");
+  const [result, setResult] = useState(null);
+
+  const NumA = Number(a);
+  const NumB = Number(b);
+
+  const clearinput = () => {
+    setA("");
+    setB("");
+    setResult(null);
+  }
 
   return (
     <div>
@@ -20,17 +30,28 @@ function Calculator() {
         onChange={(e) => setB(e.target.value)}
       />
 
-      <button onClick={() => alert(`Hasil: ${add(Number(a), Number(b))}`)}>
+      <button onClick={() => setResult(add(NumA, NumB))}>
         Tambah
       </button>
       
-      <button onClick={() => alert(`Hasil: ${subtract(Number(a), Number(b))}`)}>
+      <button onClick={() => setResult(subtract(NumA, NumB))}>
         Kurang
       </button>
 
-      <button onClick={() => alert(`Hasil: ${multiply(Number(a), Number(b))}`)}>
+      <button onClick={() => setResult(multiply(NumA, NumB))}>
         Kali
       </button>
+
+      <button onClick={clearinput}>
+        Clear
+      </button>
+
+      {/* Result from calculation */}
+      {result !== null && (
+        <p>Hasil: {result}</p>
+      )}
+
+
 
     </div>
   );
