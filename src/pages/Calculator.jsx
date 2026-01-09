@@ -20,7 +20,9 @@ function Calculator() {
         onChange={(e) => setB(Number(e.target.value))}
       />
 
-      <p>Hasil: {add(a, b)}</p>
+      <button onClick={() => alert(`Hasil: ${add(a, b)}`)}>
+        Tambah
+      </button>
     </div>
   );
 }
